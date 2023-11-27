@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    padding: 30px;  
+}
+
+.box{
+    height: 90vh;
+    background-color:gray;
+    border-radius: 10px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.two{
+    height: 80px;
+    width: 400px;
+    background-color: grey;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.three{
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    background-color: white;
+    position: relative;
+    left: 45px;
+    top: 25px;
+}
+
+.two img{
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+    position: relative;
+    top: 30px;
+    right: 40px;
+    
+}
+
+.four{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.four button{
+    border: none;
+    padding:5px;
+    box-shadow: 2px 2px 5px grey,  -2px -2px 5px grey;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: lightgray;
+    color: white;
+    cursor: pointer;
+}
